@@ -1,0 +1,361 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+:root .list {
+  list-style: none;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.page-header {
+  border-bottom: #e7e9fc solid 1px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.menu-link:hover {
+  color: #404bbf;
+}
+.menu-link:focus {
+  color: #404bbf;
+}
+.contact-information {
+  font-size: normal;
+  list-style: none;
+  font-style: normal;
+}
+.contact-information:focus,
+.contact-information:hover {
+  color: #404bbf;
+}
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-link:focus,
+.contact-link:hover {
+  color: #404bbf;
+}
+
+/* -------------------------MAIN------------------  */
+.section-one {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button-one {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 0px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 48px;
+}
+.button-one:hover,
+.button-one:focus {
+  background-color: #404bbf;
+}
+.button-text {
+  font-family: "Roboto", sans-serif;
+}
+
+/* -----------section two------------------ */
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.main-two-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  display: contents;
+}
+.two-section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-top: 8px;
+}
+.main-two-section {
+  text-align: center;
+  margin-top: 32px;
+}
+
+/* ---------------section 3--------------- */
+.section-three {
+  padding-bottom: 120px;
+}
+.name-section {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* ---------------section 4--------------- */
+.section-four {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.back-photo {
+  background-color: #ffffff;
+}
+.cont-worker-information {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+/* ---------------footer--------------- */
+.main-footer {
+  background-color: #2e2f42;
+  padding-top: 101px;
+  padding-bottom: 100px;
+}
+.footer-pharagrafe {
+  margin-top: 17.5px;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.footer-pharagrafe {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.studio-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+/*    PAAAAAAAAAAAAAAAGE TWO */
+/* -----------HEADER--------------- */
+.section-one-two-page {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.button-second-page {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button-second-page:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button-second-page:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.page-two-border {
+  border-left: #e7e9fc solid 1px;
+}
+.main-two-page {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.two-page-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-top: 8px;
+  /* padding-bottom: 32px;
+  padding-left: 16px; */
+}
+.flex-img {
+  display: block;
+}
+.img-text {
+  padding-left: 16px;
+  justify-content: flex-start;
+  border-bottom: #e7e9fc solid 1px;
+  border-left: #e7e9fc solid 1px;
+  border-right: #e7e9fc solid 1px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.conteiner-flex {
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 332px;
+}
+.flex-adress {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.logo {
+  margin-right: 76px;
+  padding: 25px 0;
+}
+.main-text {
+  width: 496px;
+  height: 120px;
+  margin: 0 auto;
+}
+.flex-text-about {
+  display: flex;
+  gap: 24px;
+}
+.two-section-text {
+  width: 264px;
+}
+.name-section {
+  margin: 0 auto 72px;
+}
+.flex-photo-first-page {
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
+  margin: 72px auto 0;
+}
+.flex-photo-worker {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}
+.photo-first-page {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* потребує доопрацювання */
+/* Флекси 2 сторінка */
+
+.button-flex {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+.button-second-page {
+  box-sizing: content-box;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  column-gap: 24px;
+}
+.flex-photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 48px) / 3);
+  gap: 24px;
+}
+.conteiner-phoro {
+  flex-basis: calc((100% -48px) / 3);
+  row-gap: 48px;
+}
